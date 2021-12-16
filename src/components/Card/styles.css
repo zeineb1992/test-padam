@@ -1,0 +1,44 @@
+@import "antd/dist/antd.css";
+
+.gridStyle {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #92374d;
+  padding: 5%;
+}
+.card {
+  background-color: #92374d;
+  margin: 20px;
+}
+.ant-card-hoverable {
+  cursor: default;
+}
+.buttonBook {
+  color: #f9fbf2;
+  background-color: #0e1c36;
+}
+.buttonBook:hover {
+  color: #f9fbf2;
+  background-color: #2f446b;
+}
+.buttonBook:focus {
+  color: #f9fbf2;
+  background-color: #0e1c36;
+}
+.buttonBook:active {
+  color: #f9fbf2;
+  background-color: #2f446b;
+}
+label {
+  color: #f9fbf2;
+}
+.ant-timeline-item-label {
+  color: #c2c2c2;
+  font-size: 14px;
+  font-weight: 400;
+}
+.ant-timeline-item {
+  font-size: 16px;
+  font-weight: 500;
+}

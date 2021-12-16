@@ -1,0 +1,15 @@
+.tripsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+.tripsContainer:not(:last-child) {
+  border-bottom: 1px solid #0e1c36;
+}
+
+.modalTitle {
+  text-align: center;
+}

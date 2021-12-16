@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { Select } from "./components/Select";
 import { Card } from "./components/Card";
 import { Modal } from "./components/Modal";
-import { getStops, getTrips, bookTrip } from "./components/utils/API";
+import { getStops, getTrips, bookTrip } from "./utils/API";
 import { notification, Button } from "antd";
 
 function App() {
